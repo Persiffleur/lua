@@ -15,11 +15,8 @@ mon = peripheral.find("monitor") --Monitor
 --List of the items which should be checked
 --Display Name - Technical Name - Minimum Amount
 meItems = {
-    [1] = {"Oak Planks", "minecraft:oak_planks", "180"},
-    [2] = {"Diorite", "minecraft:polished_diorite", "100"},
-    [3] = {"Wind Generator", "mekanismgenerators:wind_generator", "20"},
-    [4] = {"Glass", "minecraft:glass", "500"},
-    [5] = {"Stick", "minecraft:stick", "100"}
+    [1] = {"Glass", "minecraft:glass", "500"},
+    [2] = {"Sand", "minecraft:sand", "100"}
 }
 
 function checkMe(checkName, name, low)
